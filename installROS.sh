@@ -135,7 +135,7 @@ source ~/.bashrc
 tput setaf 2
 echo "Installing rosinstall tools"
 tput sgr0
-sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential -y
+sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential python-catkin-tools -y
 tput setaf 2
 echo "Installation complete!"
 tput sgr0
